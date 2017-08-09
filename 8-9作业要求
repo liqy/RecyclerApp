@@ -1,0 +1,12 @@
+１.网络接口
+http://app.u17.com/v3/appV3_3/android/phone/comic/boutiqueListNew?sexType=1&android_id=4058040115108878&v=3330110&model=GT-P5210&come_from=Tg002
+
+２.上拉加载，下拉刷新：自行百度一个开源库
+推荐一个简单的：
+https://github.com/jianghejie/XRecyclerView
+
+３.效果下载有妖气APP安卓客户端，推荐页面既是
+
+
+
+
