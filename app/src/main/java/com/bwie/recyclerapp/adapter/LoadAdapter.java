@@ -66,9 +66,18 @@ public class LoadAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         ComicItem item = items.get(position);
 
         if (holder instanceof ComicViewHolder) {
-            ComicViewHolder viewHolder = (ComicViewHolder) holder;
+            final ComicViewHolder viewHolder = (ComicViewHolder) holder;
             viewHolder.title.setText(item.name);
             Glide.with(context).load(item.cover).into(viewHolder.imageView);
+
+
+            viewHolder.imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (listener!=null)
+                        listener.onImageClick(viewHolder.imageView,position);
+                }
+            });
         }
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -105,5 +114,6 @@ public class LoadAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
      */
     public interface OnItemClickListener {
         void onItemClick(View var2, int var3);
+        void onImageClick(View view, int pos);
     }
 }

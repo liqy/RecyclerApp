@@ -104,7 +104,14 @@ public class LoadActivity extends AppCompatActivity implements XRecyclerView.Loa
 
     @Override
     public void onItemClick(View var2, int var3) {
+        //TODO 处理点击事件
         Toast.makeText(LoadActivity.this,"位置："+var3,Toast.LENGTH_SHORT).show();
         startActivity(new Intent(LoadActivity.this,HomeActivity.class));
+    }
+
+    @Override
+    public void onImageClick(View view, int pos) {
+        //TODO 处理点击事件
+
     }
 }
