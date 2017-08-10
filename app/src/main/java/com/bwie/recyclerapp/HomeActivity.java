@@ -80,7 +80,7 @@ public class HomeActivity extends AppCompatActivity {
         });
 
         adapter = new ComicAdapter();
-        recycler.addItemDecoration(new MyLine());
+        recycler.addItemDecoration(new MyLine(this,R.color.colorAccent));
         recycler.setLayoutManager(manger);
         recycler.setAdapter(adapter);
     }

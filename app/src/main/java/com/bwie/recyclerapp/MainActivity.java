@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        recycler.addItemDecoration(new MyLine());
+        recycler.addItemDecoration(new MyLine(this,R.color.colorAccent));
         GridLayoutManager manager = new GridLayoutManager(this, 12);
         manager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {//实现此接口，可以定义电商首页布局
             @Override

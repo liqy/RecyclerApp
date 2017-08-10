@@ -12,5 +12,7 @@ public class ReturnData {
     public List<U17Item> comicLists;
     public String editTime;
 
+    public List<ComicItem> comics;
+
 
 }
