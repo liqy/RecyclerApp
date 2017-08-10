@@ -5,6 +5,9 @@ http://app.u17.com/v3/appV3_3/android/phone/comic/boutiqueListNew?sexType=1&andr
 推荐一个简单的：
 https://github.com/jianghejie/XRecyclerView
 
+练习接口：page:为页数
+http://app.u17.com/v3/appV3_3/android/phone/list/commonComicList?argValue=23&argName=sort&argCon=0&page=1&android_id=4058040115108878&v=3330110&model=GT-P5210&come_from=Tg002
+
 ３.效果下载有妖气APP安卓客户端，推荐页面既是
 
 ４.视图初始化使用：utterB　Knife
