@@ -1,3 +1,4 @@
+
 １.网络接口
 http://app.u17.com/v3/appV3_3/android/phone/comic/boutiqueListNew?sexType=1&android_id=4058040115108878&v=3330110&model=GT-P5210&come_from=Tg002
 
@@ -10,7 +11,7 @@ http://app.u17.com/v3/appV3_3/android/phone/list/commonComicList?argValue=23&arg
 
 ３.效果下载有妖气APP安卓客户端，推荐页面既是
 
-４.视图初始化使用：utterB　Knife
+４.视图初始化使用：Butter　Knife
 http://jakewharton.github.io/butterknife/
 https://github.com/JakeWharton/butterknife
 
@@ -21,8 +22,3 @@ https://github.com/liqy/RecyclerApplication
 
 7.RecyclerView第三方使用案例
 http://note.youdao.com/noteshare?id=ea8b2ce4f2ea5a5133153c38ed0e5ae8&sub=WEB0142cff3dfb122faa0a4f28ce17b6b97
-
-
-
-
-
